@@ -10,6 +10,7 @@
 		0C280C485E6AAC89BC4031B7 /* Pods_swift3_google_maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB2F2D7ABDA035EB1414461 /* Pods_swift3_google_maps.framework */; };
 		70A58EB809910B3414C3C5CE /* Pods_swift3_google_mapsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505765463621581F94E90FA /* Pods_swift3_google_mapsTests.framework */; };
 		A2B217AEB4345803680D82AE /* Pods_swift3_google_mapsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE956C28BCC4AF5E75BF0B /* Pods_swift3_google_mapsUITests.framework */; };
+		F9394B071D9A109A00126DA9 /* SimpleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9394B061D9A109A00126DA9 /* SimpleMap.swift */; };
 		F95452831D98BFA7006ECDC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95452821D98BFA7006ECDC5 /* AppDelegate.swift */; };
 		F95452851D98BFA7006ECDC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95452841D98BFA7006ECDC5 /* ViewController.swift */; };
 		F95452881D98BFA7006ECDC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95452861D98BFA7006ECDC5 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		E57B7E3ACEFEB577FE0A8CD4 /* Pods-swift3_google_maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift3_google_maps.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift3_google_maps/Pods-swift3_google_maps.release.xcconfig"; sourceTree = "<group>"; };
 		EE6DECC5311D38025891C138 /* Pods-swift3_google_mapsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift3_google_mapsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift3_google_mapsUITests/Pods-swift3_google_mapsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EE8378C9095E44F6F787D116 /* Pods-swift3_google_mapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift3_google_mapsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift3_google_mapsUITests/Pods-swift3_google_mapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9394B061D9A109A00126DA9 /* SimpleMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleMap.swift; sourceTree = "<group>"; };
 		F954527F1D98BFA7006ECDC5 /* swift3_google_maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift3_google_maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95452821D98BFA7006ECDC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F95452841D98BFA7006ECDC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		F95452811D98BFA7006ECDC5 /* swift3_google_maps */ = {
 			isa = PBXGroup;
 			children = (
+				F9394B061D9A109A00126DA9 /* SimpleMap.swift */,
 				F95452821D98BFA7006ECDC5 /* AppDelegate.swift */,
 				F95452841D98BFA7006ECDC5 /* ViewController.swift */,
 				F95452861D98BFA7006ECDC5 /* Main.storyboard */,
@@ -443,6 +446,7 @@
 			files = (
 				F95452851D98BFA7006ECDC5 /* ViewController.swift in Sources */,
 				F95452831D98BFA7006ECDC5 /* AppDelegate.swift in Sources */,
+				F9394B071D9A109A00126DA9 /* SimpleMap.swift in Sources */,
 				F954528B1D98BFA7006ECDC5 /* swift3_google_maps.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
